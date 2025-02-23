@@ -18,8 +18,8 @@
         </div>
 
         <div id="auth-links">
-            <button onclick href="./pages/signin.html">Sign In</button>
-            <button onclick href="./pages/signup.html">Sign Up</button>
+            <button onclick="location.href='./pages/signin.html'">Sign In</button>
+            <button onclick="location.href='./pages/signup.html'">Sign Up</button>
         </div>
 
         <div class="game-setup">
@@ -29,13 +29,13 @@
                 <option value="medium">Medium (8 colors)</option>
                 <option value="hard">Hard (10 colors)</option>
             </select>
-            <button id="start-game-btn" disabled>Play</button>
+            <button id="start-game-btn" onclick="location.href='./pages/game.html'" disabled>Play</button>
         </div>
 
-        <button class="view-leaderboard-button">View Leaderboard</button>
+        <button class="view-leaderboard-button" onclick="location.href='./pages/Scores.html'">View Leaderboard</button>
     </div>
 
-    <script src="home.js"></script>
+    <script src="./home.js"></script>
 </body>
 
 </html>
